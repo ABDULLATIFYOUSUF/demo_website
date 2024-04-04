@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #4c4c4c;
+    color: #ccac00;
+    border-bottom: 1px solid #ccac00;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar a {
+    color: #ccac00;
+}
+
+.collapse ul li {
+    list-style-type: none;
+}
+
+.collapse ul li a {
+    color: #ccac00;
+}
+
+.home {
+    background-color: #4c4c4c;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+    height: 90vh;
+}
+
+.home1,
+.home2 {
+    flex: 1;
+    text-align: center;
+}
+
+.home1 h1,
+.home1 h2,
+.home1 p {
+    color: white;
+}
+
+.home1 h1 {
+    color: #ccac00;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.home2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home1,
+    .home2 {
+        width: 100%;
+    }
+}
+.about{
+    background-color: #4c4c4c;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    text-align: justify;
+}
+.about span{
+    color: #ccac00;
+}
+.aboutPara h2{
+    color: #ccac00;
+}
+.services {
+    background-color: #4c4c4c;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.servicesParaOne {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 3px solid #ccac00;
+    border-radius: 45px;
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    margin-bottom: 20px;
+    animation-duration: 2s;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.servicesParaOne span{
+    color: #ccac00;
+}
+
+@media (min-width: 768px) {
+    .servicesParaOne {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    .servicesParaOne {
+        width: 50%;
+    }
+}
+.contact{
+ background-color: #4c4c4c;
+ color: white;
+ min-height: 100vh;
+ padding: 20px;  
+ text-align: justify; 
+}
+.contact h1, SPAN{
+    color: #ccac00;
+}
+.contactHeading{
+    color: white;
+    margin: 50px auto;
+    border-bottom: 5px solid white;
+    width: fit-content;
+}
+.contactIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.fa-facebook{
+    color: #1877f2;
+    border: none;
+    font-size: 3em;
+}
+.fa-whatsapp{
+    color: #25d366;
+    border: none;
+    font-size: 3em;
+}
+.fa-envelope{
+    color: #37a0ff;
+    border: none;
+    font-size: 3em;
+}
+.iconsSetting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
